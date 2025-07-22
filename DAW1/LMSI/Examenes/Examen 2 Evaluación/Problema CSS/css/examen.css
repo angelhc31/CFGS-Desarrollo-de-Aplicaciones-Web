@@ -1,0 +1,211 @@
+
+
+
+/*********************** |||| TU CÓDIGO CSS SOLO EN ESTE FICHERO |||| ***********************/
+
+
+/**** Estilo de fondo de ambas páginas ****/
+body {
+	font-family: arial;
+	background-image: url('../images/fondo.jpg');
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	/**/
+}
+
+a:link{
+	text-decoration: none;
+	color: #2b6bc2;
+}
+
+a:hover{
+	color: #2798e8;
+	text-decoration: underline;
+}
+
+/**** Barra de navegación submenú con buscador y topic de ambas páginas ****/
+#subnav{
+	width: 970px;
+	height: 20px;
+	padding: 5px 0px; 
+	/**/
+	}
+
+#tema{
+		float: left;
+	}
+
+#tema a:link{
+	text-decoration: underline;
+	color: #2798e8;
+}
+
+#tema a:hover{
+	color: red;
+}
+
+#buscador{
+	text-align: right;
+	position: fixed;
+	left: 65%;
+	top: 0;
+	background-color: white;
+}
+	/**/
+
+
+/**** Estilo de los encabezados de ambas páginas ****/
+
+h1 {
+	font-size: 20px;
+	padding: 10px;
+	margin-top:0px;
+	padding-top:0px;
+	color: #2b6bc2;
+}
+
+h1:first-letter{
+	 	font-size: 2em;
+}
+
+	/**/
+
+h2 {
+	margin-bottom: 1px;
+	font-size: 16px;
+	color: #2b6bc2;
+	/**/
+	
+}
+
+h2:first-letter{
+	font-size: 2em;
+}
+
+
+h3 {
+	font-size: 14px;
+	color: #284890;
+	/**/
+	
+}
+
+/**** enlaces del menú e internos de ambas páginas ****/
+#navbar {
+	
+}
+
+#navbar ul{
+	padding: 5px 0px;
+	margin:0px;
+}
+
+#menu li{
+	padding: 5px 10px;
+	display: inline;
+	/**/
+}
+
+
+/**/  
+
+
+
+
+/**** fotografías de index.html ****/
+#foto1{
+	margin: 10px;
+	float: right;
+	/**/
+}
+#foto2{
+	margin: 10px;
+	float: left;
+	/**/
+}
+
+/**** Columnas para de index.html ****/
+
+.columna {
+	margin: 10px;
+	height: 175px;
+	width: 310px;
+	background-color:#8cb8ff;
+	float: left;
+	/**/
+	margin-bottom: 70px;
+}
+
+
+.bloque{
+	margin-bottom: 35px;
+}
+
+
+#bottom {
+	clear: both;
+	height:70px;
+	margin: 30px auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	/**/
+
+	}
+
+.seccion{
+	/**/
+	margin: 0px;
+	float: left;
+	width: 25%;
+	}
+
+	
+.seccion a{
+		color: #2b6bc2;
+		text-decoration: underline;
+	}
+
+
+/**** Listado de libros en libros.html ****/
+
+
+#sidebar {
+	width: 30%;
+	float: right;
+}
+
+#sidebar p {
+    font-size: 12px;
+    font-style: italic;
+}
+
+#sidebar img{
+	width: 80%;
+	margin-left: 30px;
+}
+	/**/
+
+	
+#main {
+	width: 70%;
+	float: left;
+	/**/	
+}
+
+#listado div {
+	padding: 4px;
+	text-align: center;
+	float: left;
+	width: 20%;
+	/**/
+}
+
+/**** banner  de ambas páginas ****/
+
+#banner { 
+	background-color: #2b6bc2;
+	font-size: 12px;
+	position: absolute;
+	right: 0px;
+	/**/
+}

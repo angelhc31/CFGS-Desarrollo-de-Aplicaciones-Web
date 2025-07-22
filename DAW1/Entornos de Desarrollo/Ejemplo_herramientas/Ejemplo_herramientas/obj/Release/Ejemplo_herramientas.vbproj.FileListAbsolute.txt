@@ -1,0 +1,29 @@
+\\nariko\documentos\PAS\joseangeln\Visual Studio 2010\Projects\Ejemplo_herramientas\Ejemplo_herramientas\obj\Release\Ejemplo_herramientas.exe
+\\nariko\documentos\PAS\joseangeln\Visual Studio 2010\Projects\Ejemplo_herramientas\Ejemplo_herramientas\obj\Release\Ejemplo_herramientas.xml
+\\nariko\documentos\PAS\joseangeln\Visual Studio 2010\Projects\Ejemplo_herramientas\Ejemplo_herramientas\obj\Release\Ejemplo_herramientas.pdb
+\\nariko\documentos\PAS\joseangeln\Visual Studio 2010\Projects\Ejemplo_herramientas\Ejemplo_herramientas\bin\Release\Ejemplo_herramientas.exe
+\\nariko\documentos\PAS\joseangeln\Visual Studio 2010\Projects\Ejemplo_herramientas\Ejemplo_herramientas\bin\Release\Ejemplo_herramientas.pdb
+\\nariko\documentos\PAS\joseangeln\Visual Studio 2010\Projects\Ejemplo_herramientas\Ejemplo_herramientas\bin\Release\Ejemplo_herramientas.xml
+\\nariko\documentos\PAS\joseangeln\Visual Studio 2010\Projects\Ejemplo_herramientas\Ejemplo_herramientas\obj\Release\ResolveAssemblyReference.cache
+\\nariko\documentos\PAS\joseangeln\Visual Studio 2010\Projects\Ejemplo_herramientas\Ejemplo_herramientas\obj\Release\WindowsApplication1.Form1.resources
+\\nariko\documentos\PAS\joseangeln\Visual Studio 2010\Projects\Ejemplo_herramientas\Ejemplo_herramientas\obj\Release\WindowsApplication1.Resources.resources
+\\nariko\documentos\PAS\joseangeln\Visual Studio 2010\Projects\Ejemplo_herramientas\Ejemplo_herramientas\obj\Release\GenerateResource.read.1.tlog
+\\nariko\documentos\PAS\joseangeln\Visual Studio 2010\Projects\Ejemplo_herramientas\Ejemplo_herramientas\obj\Release\GenerateResource.write.1.tlog
+C:\Users\Alumno\Desktop\Ejemplo_herramientas\Ejemplo_herramientas\obj\Release\Ejemplo_herramientas.exe
+C:\Users\Alumno\Desktop\Ejemplo_herramientas\Ejemplo_herramientas\obj\Release\Ejemplo_herramientas.xml
+C:\Users\Alumno\Desktop\Ejemplo_herramientas\Ejemplo_herramientas\obj\Release\Ejemplo_herramientas.pdb
+C:\Users\Alumno\Desktop\Ejemplo_herramientas\Ejemplo_herramientas\bin\Release\Ejemplo_herramientas.exe
+C:\Users\Alumno\Desktop\Ejemplo_herramientas\Ejemplo_herramientas\bin\Release\Ejemplo_herramientas.pdb
+C:\Users\Alumno\Desktop\Ejemplo_herramientas\Ejemplo_herramientas\bin\Release\Ejemplo_herramientas.xml
+C:\Users\Alumno\Desktop\Ejemplo_herramientas\Ejemplo_herramientas\obj\Release\WindowsApplication1.Form1.resources
+C:\Users\Alumno\Desktop\Ejemplo_herramientas\Ejemplo_herramientas\obj\Release\WindowsApplication1.Resources.resources
+C:\Users\Alumno\Desktop\Ejemplo_herramientas\Ejemplo_herramientas\obj\Release\Ejemplo_herramientas.vbproj.GenerateResource.Cache
+E:\DAW1\Entornos de Desarrollo\Ejemplo_herramientas\Ejemplo_herramientas\obj\Release\Ejemplo_herramientas.exe
+E:\DAW1\Entornos de Desarrollo\Ejemplo_herramientas\Ejemplo_herramientas\obj\Release\Ejemplo_herramientas.xml
+E:\DAW1\Entornos de Desarrollo\Ejemplo_herramientas\Ejemplo_herramientas\obj\Release\Ejemplo_herramientas.pdb
+E:\DAW1\Entornos de Desarrollo\Ejemplo_herramientas\Ejemplo_herramientas\bin\Release\Ejemplo_herramientas.exe
+E:\DAW1\Entornos de Desarrollo\Ejemplo_herramientas\Ejemplo_herramientas\bin\Release\Ejemplo_herramientas.pdb
+E:\DAW1\Entornos de Desarrollo\Ejemplo_herramientas\Ejemplo_herramientas\bin\Release\Ejemplo_herramientas.xml
+E:\DAW1\Entornos de Desarrollo\Ejemplo_herramientas\Ejemplo_herramientas\obj\Release\WindowsApplication1.Form1.resources
+E:\DAW1\Entornos de Desarrollo\Ejemplo_herramientas\Ejemplo_herramientas\obj\Release\WindowsApplication1.Resources.resources
+E:\DAW1\Entornos de Desarrollo\Ejemplo_herramientas\Ejemplo_herramientas\obj\Release\Ejemplo_herramientas.vbproj.GenerateResource.Cache

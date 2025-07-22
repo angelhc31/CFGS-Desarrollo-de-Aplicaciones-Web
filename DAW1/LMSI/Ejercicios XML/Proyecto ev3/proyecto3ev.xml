@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="proyecto3ev.xsl"?>
+<?xmlns xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNameSpaceSchemaLocation="proyecto3ev.xsd"?>
+<catalogo>
+
+    <juego id="1">
+        <plataforma>PS4</plataforma>
+        <titulo>Resident Evil Village</titulo>
+        <precio>62.99</precio>
+        <descripcion>Resident Evil Village tiene como objetivo crear una innovadora experiencia de survival horror como nunca antes. Años después de la pesadilla, Ethan Winters ha conseguido cierta estabilidad y una vida normal con su familia. Una vida que no tardará en ser destruida por un héroe de antaño, Chris Redfield.</descripcion>
+        <empresa>CAPCOM</empresa>
+        <web enlace="https://www.residentevil.com/village/es/">Website</web>
+        <logotipo>village.jpg</logotipo>
+    </juego>
+
+    <juego id="2">
+        <plataforma>Nintendo Switch</plataforma>
+        <titulo>Instant Sports Tennis</titulo>
+        <precio>24.99</precio>
+        <descripcion>INSTANT Sports Tennis es una forma innovadora y divertida de jugar al tenis con tu familia y amigos. Corre por la pista y simula con tus Joy-Cons el movimiento de una raqueta de tenis. Desafía al clima, que traerá tormentas en el campo, destroza las paredes en un estilo de juego tipo arkanoid, domina la gravedad...</descripcion>
+        <empresa>Nintendo</empresa>
+        <web enlace="https://www.nintendo.es/Juegos/Programas-descargables-Nintendo-Switch/INSTANT-SPORTS-TENNIS-1969058.html">Website</web>
+        <logotipo>nintendoTenis.jpg</logotipo>
+    </juego>
+
+    <juego id="3">
+        <plataforma>XBOX ONE</plataforma>
+        <titulo>Dying Light 2</titulo>
+        <precio>62.48</precio>
+        <descripcion>Dying Light 2, el virus va ganando. La última ciudad que queda está al borde del colapso, sumida en una moderna oscuridad. Como superviviente infectado necesitaras usar tus habilidades de combate e ingenio rápido para mantenerte con vida e intentar conseguir esperanza a una ciudad sumida en la oscuridad.</descripcion>
+        <empresa>Techland</empresa>
+        <web enlace="https://dyinglightgame.com/">Website</web>
+        <logotipo>dyinfLight2.jpg</logotipo>
+    </juego>
+
+    <juego id="4">
+        <plataforma>Nintendo Switch</plataforma>
+        <titulo>Lego Star Wars: La Saga Skywalker</titulo>
+        <precio>42.99</precio>
+        <descripcion>La galaxia es tuya en LEGO® Star Wars™: La Saga Skywalker. En este nuevo videojuego, los jugadores vivirán momentos memorables y una acción constante procedente de las nueve películas de la saga Skywalker, todo narrado con el humor característico de LEGO®, incluyendo la esperada conclusión de la serie, Star Wars.</descripcion>
+        <empresa>Warner Bros. Interactive Entertainment</empresa>
+        <web enlace="https://www.lego.com/es-es/themes/star-wars/games/skywalker-saga">Website</web>
+        <logotipo>star.jpg</logotipo>
+    </juego>
+
+    <juego id="5">
+        <plataforma>PS4 </plataforma>
+        <titulo>Far Cry 6 Gold Edition</titulo>
+        <precio>89.90</precio>
+        <descripcion>En Far Cry 6 se narrará la historia de un dictador llamado Anton Castillo que rige los destinos de un país ficticio llamado Yara, ubicado en una isla, y donde un grupo de revolucionarios intenta recuperar el control del país.</descripcion>
+        <empresa>Ubisoft</empresa>
+        <web enlace="https://www.ubisoft.com/es-es/game/far-cry/far-cry-6">Website</web>
+        <logotipo>farcry.jpeg</logotipo>
+    </juego>
+
+    <juego id="6">
+        <plataforma>XBOX ONE</plataforma>
+        <titulo>Phoenix Point Year One Edittion</titulo>
+        <precio>44.99</precio>
+        <descripcion>Phoenix Point una nueva entrega que muestra una increíble estrella en el horizonte de la estrategia. Estarás al frente de una batalla global contra una terrorífica amenaza alienígena, una combinación entre la estrategia por turnos y la estrategia basada en el mundo.</descripcion>
+        <empresa>Snapshot Games</empresa>
+        <web enlace="https://forums.snapshotgames.com/t/phoenix-point-year-one-edition-coming-december-3rd/11611">Website</web>
+        <logotipo>phoenix.jpg</logotipo>
+    </juego>
+
+    <juego id="7">
+        <plataforma>PS4</plataforma>
+        <titulo>Life is Strange True Colors</titulo>
+        <precio>53.99</precio>
+        <descripcion>Life Is Strange 2 es una aventura gráfica que se juega desde una vista en tercera persona. El jugador toma el control de Sean Diaz, quien huye de la policía con su hermano menor Daniel. Sean puede interactuar con el entorno, obtener objetos y hablar con personajes que no son jugadores a través de árboles de diálogo.</descripcion>
+        <empresa>Square Enix</empresa>
+        <web enlace="https://lifeisstrange.square-enix-games.com/es/">Website</web>
+        <logotipo>LiS.jpg</logotipo>
+    </juego>
+
+    <juego id="8">
+        <plataforma>Nintendo Switch</plataforma>
+        <titulo>Animal Crossing: New Horizons</titulo>
+        <precio>49.99</precio>
+        <descripcion>Animal Crossing es un videojuego de simulación social y de vida que Nintendo ha descrito como un "juego de comunicación". El personaje vive una vida en la que el usuario decide qué hacer, por ejemplo, las tareas que te propongan los vecinos no son obligatorias.</descripcion>
+        <empresa>Nintendo</empresa>
+        <web enlace="https://www.animal-crossing.com/new-horizons/es/">Website</web>
+        <logotipo>animal.jpg</logotipo>
+    </juego>
+</catalogo>

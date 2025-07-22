@@ -1,0 +1,8 @@
+{
+    "bbdd": "mysql",
+    "ruta": "localhost",
+    "dbname": "ferreteria",
+    "usr": "root",
+    "pwd": ""
+    
+}

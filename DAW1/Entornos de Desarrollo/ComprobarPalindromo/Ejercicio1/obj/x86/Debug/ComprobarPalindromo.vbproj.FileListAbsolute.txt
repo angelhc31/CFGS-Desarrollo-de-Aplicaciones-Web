@@ -1,0 +1,9 @@
+E:\DAW1\Entornos de Desarrollo\ComprobarPalindromo\bin\Debug\ComprobarPalindromo.exe
+E:\DAW1\Entornos de Desarrollo\ComprobarPalindromo\bin\Debug\ComprobarPalindromo.pdb
+E:\DAW1\Entornos de Desarrollo\ComprobarPalindromo\bin\Debug\ComprobarPalindromo.xml
+E:\DAW1\Entornos de Desarrollo\ComprobarPalindromo\obj\x86\Debug\WindowsApplication1.Form1.resources
+E:\DAW1\Entornos de Desarrollo\ComprobarPalindromo\obj\x86\Debug\WindowsApplication1.Resources.resources
+E:\DAW1\Entornos de Desarrollo\ComprobarPalindromo\obj\x86\Debug\ComprobarPalindromo.vbproj.GenerateResource.Cache
+E:\DAW1\Entornos de Desarrollo\ComprobarPalindromo\obj\x86\Debug\ComprobarPalindromo.exe
+E:\DAW1\Entornos de Desarrollo\ComprobarPalindromo\obj\x86\Debug\ComprobarPalindromo.xml
+E:\DAW1\Entornos de Desarrollo\ComprobarPalindromo\obj\x86\Debug\ComprobarPalindromo.pdb

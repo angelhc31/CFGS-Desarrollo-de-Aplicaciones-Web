@@ -1,0 +1,20 @@
+h1 {
+  font-size: 3em;
+  color: red;
+  text-align: left;
+}
+p {
+  font-size: 2em;
+  color: blue;
+  text-align: center;
+}
+
+#personalizado {
+  color: khaki;
+  font-size: 4rem;
+}
+
+.clase {
+  color: crimson;
+  font-size: 24px;
+}

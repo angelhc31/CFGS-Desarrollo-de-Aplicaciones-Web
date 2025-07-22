@@ -1,0 +1,38 @@
+<!DOCTYPE Exposiciones[
+    <!ELEMENT Exposiciones (expo+)>
+        <!ELEMENT expo (Obras, ID_Expo, nombre, lugar, tipo, descripcion, website, fechaInicio, fechaFin, obrasExpuestas)>
+            <!ATTLIST expo id NMTOKEN #REQUIRED>
+            <!ELEMENT nombre (#PCDATA)>
+            <!ELEMENT lugar (#PCDATA)>
+            <!ELEMENT tipo (#PCDATA)>
+            <!ELEMENT descripcion (#PCDATA)>
+            <!ELEMENT website (#PCDATA)>
+            <!ELEMENT fechaInicio (#PCDATA)>
+            <!ELEMENT fechaFin (#PCDATA)>
+            <!ELEMENT obrasExpuestas (#PCDATA)>
+        
+        <!ELEMENT Obras (obra+)>
+            <!ELEMENT obra(Artistas, Estilos, IDObra, titulo, año, estilo, tecnica, IDArtista, IDEstilo)>
+                <!ATTLIST obra id NMTOKEN #REQUIRED>
+                <!ELEMENT titulo (#PCDATA)>
+                <!ELEMENT año (#PCDATA)>
+                <!ELEMENT estilo (#PCDATA)>
+                <!ELEMENT técnica (#PCDATA)>
+        
+            <!ELEMENT Artistas (artista+)>
+                <!ELEMENT artista (IDArtista, nombre, apellidos, nacionalidad, fechaNacimiento, website)>
+                    <!ATTLIST artista id NMTOKEN #REQUIRED>
+                    <!ELEMENT nombre (#PCDATA)>
+                    <!ELEMENT apellidos (#PCDATA)>
+                    <!ELEMENT nacionalidad (#PCDATA)>
+                    <!ELEMENT fechaNacimiento (#PCDATA)>
+                    <!ELEMENT website (#PCDATA)>
+
+            <!ELEMENT Estilos (estilo?)>
+                <!ELEMENT estilo (IDEstilo, nombre, descripcion, tecnica, material)>
+                    <!ATTLIST estilo id NMTOKEN #REQUIRED>
+                    <!ELEMENT nombre (#PCDATA)>
+                    <!ELEMENT descripcion (#PCDATA)>
+                    <!ELEMENT tecnica (#PCDATA)>
+                    <!ELEMENT material (#PCDATA)>
+]>

@@ -1,0 +1,394 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Propiedades CSS</title>
+</head>
+
+<body>
+<table width="1100" border="0">
+  <tr>
+    <td height="22" colspan="2"><h1>Referencia de propiedades CSS (versiones 1 y 2)</h1></td>
+    <td width="302">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="253" height="22"><h3>Propiedades</h3></td>
+    <td width="531"><h3>Definici&oacute;n</h3></td>
+    <td><h3>Ejemplos</h3></td>
+  </tr>
+  
+  <tr>
+    <td colspan="3" bgcolor="#9CCFFF"><em><strong>Propiedades de fondos</strong></em></td>
+  </tr>
+  <tr>
+    <td height="122"><ul>
+      <li>background-color</li>
+      <li>background-image</li>
+      <li>background-repeat</li>
+      <li>background-attachment</li>
+      <li>background-position</li>
+    </ul></td>
+    <td><ul>
+      <li>color de fond</li>
+      <li>imagen de fondo</li>
+      <li>repetici&oacute;n de la imagen de fondo (repeat/no-repeat) </li>
+      <li>define  el desplazamiento de la imagen de fondo (fixed/scroll) </li>
+      <li>posici&oacute;n de la imagen de fondo    (left, right, top, bottom) </li>
+    </ul></td>
+    <td><code>body {background-color:#b0c4de;} <br />
+      body 
+{background-image:url('gradient2.png');} <br />
+body 
+{background-repeat:no-repeat;}<br />
+body {background-attachment:fixed;} <br />
+body 
+{background-position:right top;}</code></td>
+  </tr>
+  
+  <tr>
+    <td height="22" colspan="3" bgcolor="#9CCFFF"><em><strong>Propiedades relacionadas con el formato de texto </strong></em></td>
+  </tr>
+  <tr>
+    <td height="176"><ul>
+      <li>color</li>
+      <li>text-align</li>
+      <li>text-decoration</li>
+      <li>text-transform</li>
+      <li>text-indent</li>
+      </ul>      
+      <p>Otros:  <a href="http://www.w3schools.com/cssref/pr_text_letter-spacing.asp">letter-spacing</a>, <a href="http://www.w3schools.com/cssref/pr_dim_line-height.asp">line-height</a>, <a href="http://www.w3schools.com/cssref/pr_pos_vertical-align.asp">vertical-align</a>, <a href="http://www.w3schools.com/cssref/pr_text_word-spacing.asp">word-spacing</a><br />
+    </p></td>
+    <td><ul>
+        <li>Establece el color</li>
+      <li>Establece la alineaci&oacute;n (left, right, center, justify) </li>
+      <li>Decoraci&oacute;n (overline, line-through, underline, blink)</li>
+      <li>Transformaci&oacute;n (uppercase, lowercase, capitalize)</li>
+      <li>Indentaci&oacute;n o sangr&iacute;a de primera l&iacute;nea </li>
+      </ul>
+    <p>&nbsp;</p></td>
+    <td><p><code>body {color:blue;}<br />
+      h1 {text-align:center;}<br />
+      h3 {text-decoration:underline;}<br />
+      p {text-transform:lowercase;}<br />
+      p {text-indent:50px;}</code><br />
+      <code>h1 {letter-spacing:2px}<br />
+      p
+{word-spacing:30px;} </code></p>
+      <p><br />
+      </p></td>
+  </tr>
+  <tr>
+    <td colspan="3" bgcolor="#9CCFFF"><em><strong>Propiedades relacionadas con el formato de fuente </strong></em></td>
+  </tr>
+  <tr>
+    <td height="101"><ul>
+      <li>font-family</li>
+      <li>font-style </li>
+      <li>font-size</li>
+      <li>font-weight</li>
+    </ul></td>
+    <td><ul>
+      <li>Define la fuente empleada en el selector </li>
+      <li>El estilo de fuente (normal, italic, oblique)</li>
+      <li>Tama&ntilde;o de la fuente  (px, em, %) </li>
+      <li>Define el peso o espesor del texto, como la negrita </li>
+    </ul></td>
+    <td><code>p{font-family:&quot;Times New Roman&quot;, Times, serif;}<br />
+    p {font-style: normal;}<br />
+    h1 {font-size: 40px;}<br />
+    a {font-weight:bold;}</code></td>
+  </tr>
+  <tr>
+    <td colspan="3" bgcolor="#9CCFFF"><em><strong>Propiedades para enlaces (pseudo-clases) </strong></em></td>
+  </tr>
+  <tr>
+    <td height="102"><ul>
+      <li>a:link</li>
+      <li>a:visited</li>
+      <li>a:hover</li>
+      <li>a:active</li>
+    </ul></td>
+    <td><p>definen cualquier propiedad de las anteriores asociadas a los diferentes estados de un enlace: no visitado, visitado, rat&oacute;n encima o enlace activo </p>
+      <p>&nbsp; </p></td>
+    <td><code>a:link {text-decoration:none;}<br />
+  a:visited {color:#00FF00;}<br />
+  a:hover {background-color:#FFFF85;}<br />
+  a:active {color:#0000FF;}</code></td>
+  </tr>
+  
+  
+  <tr>
+    <td colspan="3" bgcolor="#9CCFFF"><em><strong>Propiedades relacionadas con los bordes y l&iacute;neas</strong></em></td>
+  </tr>
+  <tr>
+    <td height="272"><ul>
+      <li><a href="http://www.w3schools.com/cssref/pr_border.asp">border</a></li>
+      <li><a href="http://www.w3schools.com/cssref/pr_border-color.asp">border-color</a></li>
+      <li><a href="http://www.w3schools.com/cssref/pr_border-style.asp">border-style</a></li>
+      <li><a href="http://www.w3schools.com/cssref/pr_border-width.asp">border-width</a></li>
+      <li><a href="http://www.w3schools.com/cssref/pr_border-bottom.asp">border-bottom</a> (top/left/right)</li>
+      <li><a href="http://www.w3schools.com/cssref/pr_border-bottom_color.asp">border-bottom-color</a> (style/width)</li>
+      </ul>    
+      <br />
+      <ul>
+        <li><a href="http://www.w3schools.com/cssref/pr_outline.asp">outline</a></li>
+        <li><a href="http://www.w3schools.com/cssref/pr_outline-color.asp">outline-color</a></li>
+        <li><a href="http://www.w3schools.com/cssref/pr_outline-style.asp">outline-style</a></li>
+        <li><a href="http://www.w3schools.com/cssref/pr_outline-width.asp">outline-width</a> </li>
+    </ul></td>
+    <td><ul>
+      <li>Establece propiedades para los bordes de un elemento (anchura, estilo y color)</li>
+      <li>Establece especificamente el color para todos los bordes </li>
+      <li>Establece especificamente el estilo (solid, dotted) para todos los bordes </li>
+      <li>Establece especificamente la anchura (en px) para todos los bordes </li>
+      <li>Establece propiedades para un borde (inferior, superior, izquierdo o derecho)</li>
+      <li>Establece alguna propiedad (color, style, width) para un borde (inf, sup, izq, der)</li>
+      </ul>
+    <br />
+    <ul>
+      <li>Define todas las propiedades para las l&iacute;neas exteriores en una sola declaraci&oacute;n</li>
+      <li>Define el color de las l&iacute;neas exteriores</li>
+      <li>Define el estilo de las l&iacute;neas exteriores</li>
+      <li>Define la anchura de las l&iacute;neas exteriores</li>
+    </ul></td>
+    <td><p><code>p 
+      {
+      border:5px solid red;
+      } <br />
+      h1{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border-style:solid;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border-left-color:#ff0000} <br />
+      p 
+      {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border-style:double;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border-right-width:15px;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border-left-width:10px;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} <br />
+  </code></p><br />
+      <p><code>p 
+        {outline:#00FF00 dotted thick;} <br />
+        p
+        {<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;outline-style:dotted;<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;outline-width:5px;<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} </code><br />
+      </p></td>
+  </tr>
+  <tr>
+    <td colspan="3" bgcolor="#9CCFFF"><em><strong>Propiedades de listas</strong></em></td>
+  </tr>
+  <tr>
+    <td height="159"><ul>
+      <li><a href="http://www.w3schools.com/cssref/pr_list-style-type.asp">list-style-type</a></li>
+      <li><a href="http://www.w3schools.com/cssref/pr_list-style-position.asp">list-style-position</a></li>
+      <li><a href="http://www.w3schools.com/cssref/pr_list-style-image.asp">list-style-image</a></li>
+      <li><a href="http://www.w3schools.com/cssref/pr_list-style.asp">list-style</a> </li>
+      </ul>
+      </td>
+    <td><ul>
+      <li>Define el tipo de marcador para los elementos de lista (square, circle, disc, lower-roman, upper-roman, lower-latin, upper-latin, decimal)</li>
+      <li>Define la posici&oacute;n del marcador del listado (inside, outside)</li>
+      <li>Permite estableder una imagen como elemento de lista</li>
+      <li>Define todas las propiedades de lista en una sola sentencia</li>
+    </ul></td>
+    <td><ul>
+      <li><code>list-style-type:upper-roman</code></li>
+      <li><code>list-style-position:inside;</code></li>
+      <li><code>list-style-image:url('sqpurple.gif');</code></li>
+      <li><code>list-style: square url(&quot;sqpurple.gif&quot;);</code></li>
+    </ul></td>
+  </tr>
+  <tr>
+    <td colspan="3" bgcolor="#9CCFFF"><em><strong>Propiedades de dimensi&oacute;n</strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top"><ul>
+      <li><a href="http://www.w3schools.com/cssref/pr_dim_height.asp">height</a></li>
+      <li><a href="http://www.w3schools.com/cssref/pr_dim_width.asp">width</a></li>
+      <li><a href="http://www.w3schools.com/cssref/pr_dim_max-height.asp">max-height</a></li>
+      <li><a href="http://www.w3schools.com/cssref/pr_dim_max-width.asp">max-width</a></li>
+      <li><a href="http://www.w3schools.com/cssref/pr_dim_min-height.asp">min-height</a></li>
+      <li><a href="http://www.w3schools.com/cssref/pr_dim_min-width.asp">min-width</a></li>
+      </ul>
+    <p><a href="http://www.w3schools.com/cssref/pr_dim_width.asp"></a></p></td>
+    <td valign="top"><ul>
+      <li>Define la altura del elemento</li>
+      <li>Define la anchura del elemento</li>
+      <li>Define la altura m&aacute;xima del elemento</li>
+      <li>Define la anchura m&aacute;xima del elemento</li>
+      <li>Define la altura m&iacute;nima del elemento</li>
+      <li>Define la anchura m&iacute;nima del elemento</li>
+      </ul>
+    <p>&nbsp;</p></td>
+    <td valign="top"><p><code>p.especial
+      {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height:100px;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width:100px;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} <br />
+      div
+      {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;max-width: 1000px;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min-width: 300px;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} </code></p>    </td>
+  </tr>
+  <tr>
+    <td colspan="3" bgcolor="#9CCFFF"><em><strong>Propiedades de m&aacute;rgenes y relleno</strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top"><ul>
+      <li><a href="http://www.w3schools.com/cssref/pr_margin.asp">margin</a></li>
+      <li><a href="http://www.w3schools.com/cssref/pr_margin-top.asp">margin-top</a> <a href="http://www.w3schools.com/cssref/pr_margin-bottom.asp"></a>(right, bottom, left)</li>
+      </ul>
+    <br />
+    <ul>
+      <li><a href="http://www.w3schools.com/cssref/pr_padding.asp">padding</a></li>
+      <li><a href="http://www.w3schools.com/cssref/pr_padding-top.asp">padding-top</a><a href="http://www.w3schools.com/cssref/pr_padding-bottom.asp"></a> (right, bottom, left)</li>
+    </ul></td>
+    <td valign="top"><ul>
+      <li>Permite definir todos los margenes a la vez en sentido horario</li>
+      <li>Permite definir cada m&aacute;rgen de forma independiente</li>
+      </ul>
+      <br />
+      <ul>
+        <li>Permite definir todos los rellenos a la vez en sentido horario</li>
+        <li>Permite definir cada espacio de rellenos de forma independiente</li>
+      </ul>
+      <p><strong>Notas</strong>:  se pueden usar 4, 3, 2 o una unidad defini&eacute;ndose en sentido horario:</p>
+      <ul>
+        <li><em>margin: 10px 5px 3px</em>: estable top a 10px, y bottom a  5px y y right a 3px</li>
+        <li><em>padding: 10px 5px:</em> estable top y bottom a 10px y right y left en 5px</li>
+    </ul></td>
+    <td><p><code>p {<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;margin:2cm 4cm 3cm 4cm;<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;padding:10px;</code><code><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} </code></p>
+      <p><code><br />
+        div  {</code><br />
+        <code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code>margin:10px;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code>padding:5px 25px;</code><code><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      }<br />
+        <br />
+      </code></p></td>
+  </tr>
+  <tr>
+    <td colspan="3" bgcolor="#9CCFFF"><em><strong>Propiedades de posici&oacute;n</strong></em></td>
+  </tr>
+  <tr> 
+    <td valign="top"> <ul>
+        <li class="MsoNormal" style='mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><a
+     href="http://www.w3schools.com/cssref/pr_pos_bottom.asp"><span
+     class="SpellE">bottom</span></a>, <a
+     href="http://www.w3schools.com/cssref/pr_pos_top.asp"><span class="SpellE">top</span></a>, 
+          <a
+     href="http://www.w3schools.com/cssref/pr_pos_left.asp"><span class="SpellE">left 
+          </span></a>, <a
+     href="http://www.w3schools.com/cssref/pr_pos_right.asp"><span
+     class="SpellE">right</span></a></li>
+        <li><a
+     href="http://www.w3schools.com/cssref/pr_class_visibility.asp"><span
+     class="SpellE">visibility</span></a></li>
+        <li><a
+     href="http://www.w3schools.com/cssref/pr_pos_z-index.asp">z-<span
+     class="SpellE">index</span></a></li>
+        <li class="MsoNormal" style='mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><a
+     href="http://www.w3schools.com/cssref/pr_pos_clip.asp">clip</a></li>
+        <li><a
+     href="http://www.w3schools.com/cssref/pr_class_cursor.asp">cursor</a></li>
+        <li><a
+     href="http://www.w3schools.com/cssref/pr_class_display.asp"><span
+     class="SpellE">display</span></a></li>
+        <li class="MsoNormal" style='mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><a
+     href="http://www.w3schools.com/cssref/pr_class_float.asp"><span
+     class="SpellE">float</span></a></li>
+        <li><a
+     href="http://www.w3schools.com/cssref/pr_class_clear.asp"><span
+     class="SpellE">clear</span></a></li>
+        <li class="MsoNormal" style='mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'><a
+     href="http://www.w3schools.com/cssref/pr_pos_overflow.asp"><span
+     class="SpellE">overflow</span></a></li>
+        <li><a
+     href="http://www.w3schools.com/cssref/pr_class_position.asp"><span
+     class="SpellE">position</span></a></li>
+      </ul>
+      <p>&nbsp;</p>
+      <p>&nbsp;<br />
+      </p>      </td>
+    <td valign="top"> <ul>
+        <li>Especifica la posici&oacute;n inferior, superior, izquierda y derecha 
+          de un elemento</li>
+        <li>Define la visibilidad de un elemento (visible/hidden)</li>
+        <li>Define la profundidad de un elemento en eje Z</li>
+        <li>Proporciona un recorte en el contenido del elemento posicionado</li>
+        <li>Especifica el tipo de cursor a mostrar</li>
+        <li>Especifica c&oacute;mo debe ser mostrado cierto elemento (inline, 
+          block, inherit, none) </li>
+        <li>Especifica si el elemento flota o no y en qu&eacute; posici&oacute;n 
+          (left/right)</li>
+        <li>Especifica que lado o lados del elemento no permitir&aacute;n flotantes 
+          (left, right, both)</li>
+        <li>Especifica c&oacute;mo se comporta el contenido de un item (scroll, 
+          visible, hidden, auto)</li>
+        <li>Especifica el tipo de posici&oacute;n de un elemento: 
+          <ul>
+            <li><strong>static</strong>: por defecto, los items se posicionan 
+              por el orden en que aparecen </li>
+            <li> <strong>absolute</strong>: los items se posicionan en funci&oacute;n 
+              del primero no est&aacute;tico</li>
+            <li> <strong>fixed</strong>: los items se posicionan respecto a la 
+              ventana del navegador</li>
+            <li> <strong>relative</strong>: los items se posicionan en relaci&oacute;n 
+              a donde se encuentran</li>
+            <li> <strong>inherit</strong>: heredada del elemento dentro del que 
+              se encuentra<br />
+              <br />
+            </li>
+          </ul>
+        </li>
+      </ul></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="3" bgcolor="#9CCFFF"><em><strong>Propiedades de tablas</strong></em></td>
+  </tr>
+  <tr>
+    <td><ul>
+      <li><a href="http://www.w3schools.com/cssref/pr_tab_border-collapse.asp">border-collapse</a></li>
+      <li><a href="http://www.w3schools.com/cssref/pr_tab_border-spacing.asp">border-spacing</a></li>
+      <li><a href="http://www.w3schools.com/cssref/pr_tab_caption-side.asp">caption-side</a></li>
+      <li><a href="http://www.w3schools.com/cssref/pr_tab_empty-cells.asp">empty-cells</a></li>
+      <li><a href="http://www.w3schools.com/cssref/pr_tab_table-layout.asp">table-layout</a></li>
+    </ul>  
+      <p>&nbsp;</p></td>
+    <td><ul>
+      <li>Colapsa los bordes (pasan de ser dobles a sencillos de una l&iacute;nea por defecto); valores collapse/separate</li>
+      <li>Establece la distancia entre bordes de una tabla</li>
+      <li>Permite usar un pi&eacute; de tabla y su posici&oacute;n (top/bottom)</li>
+      <li>Muetra o esconde las celdas vac&iacute;as (hide, show)</li>
+      <li>Establece si una tabla debe o no redimensionarse respecto a sus contenidos (auto, fixed)</li>
+    </ul></td>
+    <td><ul>
+      <li><code>border-collapse:collapse;</code></li>
+      <li><code>border-spacing:10px 50px;</code></li>
+      <li><code>caption-side:bottom;</code></li>
+      <li><code>empty-cells:hide;</code></li>
+      <li><code>table-layout:fixed;</code></li>
+    </ul></td>
+  </tr>
+  <tr>
+    <td colspan="3" bgcolor="#9CCFFF"><em><strong>Propiedades de impresi&oacute;n</strong></em></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><div align="center"><a href="http://www.w3schools.com/cssref/default.asp">Referencia completa </a></div></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>
+CSS-propiedades.html
+Mostrando CSS-propiedades.html.

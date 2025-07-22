@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libro isbn="1345645715">
+    <titulo>Harry Potter</titulo>
+    <autores>J.K.Rowling</autores>
+    <editorial>Bloomsbury Publishing</editorial>
+    <fechaPublicacion>30 de noviembre de 2001</fechaPublicacion>
+</libro>

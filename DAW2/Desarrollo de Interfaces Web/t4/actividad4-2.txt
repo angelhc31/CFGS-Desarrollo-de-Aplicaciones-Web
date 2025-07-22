@@ -1,0 +1,4 @@
+Escribe un fichero html comnpuesto por una cabecera y el cuerpo. Debe incorporar dos elementos párrafo y una imagen. 
+En el estilo (hoja de estilos) debe aparecer 
+En los párrafo en negrita, con un tamaño de 20px.
+El color de la debe ser peru y la familia Arial.

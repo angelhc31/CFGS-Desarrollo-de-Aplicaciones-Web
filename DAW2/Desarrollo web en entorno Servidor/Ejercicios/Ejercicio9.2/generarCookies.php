@@ -1,0 +1,9 @@
+<?php
+    session_start();
+	setcookie($_SESSION["nombre"]."_align",$_POST["align"],time()+86400);
+    setcookie($_SESSION["nombre"]."_color",$_POST["color"],time()+86400);
+    setcookie($_SESSION["nombre"]."_tamano",$_POST["tamano"],time()+86400);
+    setcookie($_SESSION["nombre"]."_marg",$_POST["marg"],time()+86400);
+    setcookie($_SESSION["nombre"]."_backColor",$_POST["backColor"],time()+86400);
+    header("Location:config.php");
+?>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>SegundaPagina</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1 align="center">Esto es la segunda pagina</h1>
+        <p><a href="Recursos.html">Aqui vuelves a la primera pagina</a></p>
+        <p><a href="TerceraPagina.html">Aqui vas a la tercera pagina</a></p>
+
+
+        <!--Para hacer una lista ordenada numericamente-->
+        <ol type="I" start="10">
+            <!--type es para que tipo de numeracion quieres (romano, normal...)-->
+            <!--start es para decir a partir de que numero empieza-->
+            <!--Para poner lo que quieras (en orden)-->
+            <li>Desayuno</li>
+            <li>Almuerzo</li>
+            <li>Comida</li>
+            <li>Merienda</li>
+            <li>Cena</li>
+        </ol>
+
+        <hr>
+
+        <!--Para hacer una lista solo con puntos, cuadrados, etc-->
+        <ul type="disc">
+            <!--type es para poner como quieres que sean los circulos disc(punto negro),circle(circulo),square(cuadrado)-->
+            <li>Pizza</li>
+            <li>Colacao</li>
+            <li>Agua</li>
+            <li>Lechuga</li>
+        </ul>
+
+
+        <!--Se pueden encapsalar ol y ul como quieras-->
+        <ol>
+            <li>Desayuno</li>
+            <li>Almuerzo</li>
+                <ul type="disc">
+                    <li>Almuerzo martes</li>
+                    <li>Almuerzo lunes</li>
+                </ul>
+            <li>Comida</li>
+            <ul type="square">
+                <li>Comida martes</li>
+                <li>Comida lunes</li>
+            </ul>
+            <li>Merienda</li>
+            <li>Cena</li>
+            <ul type="circle">
+                <li>Cena martes</li>
+                <li>Cena lunes</li>
+            </ul>
+            <li>Beber agua es importante</li>
+        </ol>
+
+
+
+    </body>
+</html>

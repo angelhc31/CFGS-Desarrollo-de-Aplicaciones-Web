@@ -1,0 +1,132 @@
+body {
+	font-family: calibri;
+	color: #882222;
+	background-color:#333333;
+	}
+
+h1 {
+	font-family: 'Italianno', cursive;
+	font-size:50px;
+	color: #FFFFFF;
+	letter-spacing: 7px;
+	text-align: center;
+	width: 900px;
+	margin: 20px auto;
+	text-shadow: 1px 1px #999999;
+	border: 20px solid transparent;
+    padding: 10px;
+    border-image-source: url(images/ribete.png);
+    border-image-repeat: no-repeat;
+    border-image-slice: 40;
+	}
+	
+h2 {
+	font-size:28px;
+	font-style:italic;
+	color: #992222;
+	letter-spacing: 3px;
+	margin: 10px 2px;	
+	}
+	
+h3 {
+	font-size:20px;
+	font-style:italic;
+	color: #DD4444;
+	font-style:italic;
+	padding: 0px;
+	letter-spacing: 3px;
+	margin: 8px 0px;
+	}
+
+	p {
+		margin: 4px;
+	}
+img {
+	margin: 5px;
+
+}
+
+ul {
+	padding-left:20px;
+}
+#cuerpo{
+	position: relative;
+	width:1000px;
+	margin: 0px auto;
+	}
+	
+.casa {
+	width:1000px;
+	position: relative;
+	top:0px;
+	height:570px;
+	margin: 10px auto;
+	background-color:#EEEEEE;
+	}
+	
+.nombreylema {
+	width: 93%;
+	padding: 10px;
+	margin: 5px 0px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+	border: 2px solid #FFFFFF;
+	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+	background-repeat: no-repeat;
+	 background-position: right;
+	 background-size: contain;
+}
+
+.blason {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height:350px;
+	width:220px;
+}
+
+.blason img {
+	box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+.datos{
+	position: absolute;
+	top: 0px;
+	left: 230px;
+	width: 780px;
+	font-size:16px;
+	font-style:italic;
+	padding: 0 10px;
+}
+
+.descripcion{
+	position: absolute;
+	top: 185px;
+	left: 230px;
+	width: 750px;
+	text-align:justify;
+	font-size:14px;
+	font-style:italic;
+	padding: 10px;
+}
+
+.integrantes {	
+	position: absolute;
+	top: 350px;
+	left: 5px;
+	width: 1000px;
+}
+
+.miembros {
+	float: left;
+	width:320px;
+	font-size:16px;
+	margin-left: 10px;
+}
+	
+.muerto {
+	font-size:20px;
+	font-weight:bold;
+	padding-left: 8px;
+	color: #000000;
+	}

@@ -1,0 +1,4 @@
+@import url("ficheroEstilo1.css") print;
+@import url("ficheroEstilo2.css") print;
+@import url("ficheroEstilo3.css") print, screen;
+@import url("ficheroEstilo4.css") print;

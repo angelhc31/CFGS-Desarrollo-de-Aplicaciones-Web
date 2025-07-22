@@ -1,0 +1,61 @@
+body{
+    width: 80%;
+    margin: 70px auto;
+    background-color: #121317;
+}
+#cuerpo{
+    background-color: #BEC7C7;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: #BB2020;
+}
+table{
+    font-size: 20px;
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#title{
+    text-align: left;
+    font-size: 30px;
+}
+#logo{
+    width: 33%;
+}
+#cuerpo button{
+    height: 25px;
+    width: 90px;
+    border-radius: 8px;
+}
+#cuerpo button:hover{
+    background-color:white;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+#menu button{
+    background-color: #BEC7C7;
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+}
+#menu th{
+    width: 25%;
+}
+#menu button:hover{
+    background-color: white;
+}
+#menu table{
+    height: 35px;
+}

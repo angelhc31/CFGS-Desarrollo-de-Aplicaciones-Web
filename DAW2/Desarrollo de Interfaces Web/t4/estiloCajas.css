@@ -1,0 +1,10 @@
+article {
+  background: #5deaab;
+  height: 100px;
+  width: 200px;
+  margin: 10px;
+  padding: 5px;
+}
+article{
+    border: 1px solid black;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Recursos</title>
+        <meta charset="UTF-8">
+
+        <style>
+            body{
+                margin: 20px 25%;
+            }
+        </style>
+        <!--Eso sirve para dejar margenes de 20px por arriba y por debajo, y margenes de un 25% por los lados-->
+    </head>
+
+    <body bgcolor="brown" text="white" vlink="green" link="blue"> <!--bgcolor="" cambia el color de fondo-->
+        <!-- text="" hace que todo tu texto se coloree de un color excepto los que tengan un font-->
+        <!-- link="" hace que un enlace cambie al color que pongas, vlink="" hace que un enlaze ya clicado cambie al color que pongas-->
+        <h1 align="center">Esto es un encabezado h1 centerado en la pantalla</h1>
+        <h2>Esto es un encabezado h2</h2>
+        <h3>Esto es un encabezado h3</h3>
+        <h4 align="right">Esto es un encabezado h4 en la derecha</h4>
+        <!--Esto es un comentario-->
+        <hr> <!--Esto es una linea de lado a lado del navegador-->
+        <hr width="50%"> <!--Esto es una linea de la mitad del navegador-->
+        <br> <!--Esto es un espacio vertical-->
+        <p>Esto es un parrafo</p>
+        <p>Esto es un parrafo con <strong>negrita</strong> y con <em>cursiva</em></p>
+        <p><strong>Esto es un parrafo en negrita</strong></p>
+        <p><em>Esto es un parrafo en cursiva</em></p>
+        <p><strong><em>Esto es un parrafo en cursiva y negrita</em></strong></p>
+        <p>Esto es un parrafo con un enlace a <a href="https://www.google.es">Google</a></p>
+        <p><a href="universo.jpg" target="_blank">Esto es un enlace a una foto</a></p>
+        <!-- tareget="_blank" hace que la foto se abra en otra pestaña, si no lo pusiera se abriria en la misma pestaña-->
+        <p><a href="SegundaPagina.html">Esto es un parrafo para ir a la segunda pagina</a></p>
+        <p><a href="TerceraPagina.html">Esto es un parrafo para ir a la tercera pagina</a></p>
+        <p><font color="red" size="5.5" face="Arial">Esto es un parrafo personalizado por la etiqueta font</font></p>
+        <p><font color="blue" size="4" face="Arial">Esto es un parrafo</font> parcialmente personalizado</p>
+
+        <br>
+        <br>
+
+        <!--Tabla-->
+        <h1>TABLA</h1>
+        <table bgcolor="black" border="3" width="400px"> 
+
+            <tr> <!--Cada tr es una fila-->      
+              <th width="75px">Celda 1</th> <!--Cada th es una celda con lo de dentro en negrita y centrado-->        
+              <th>Celda 2</th>          
+              <th>Celda 3</th>
+              <td rowspan="2">Rowapan</td>        
+            </tr>
+          
+            <tr>         
+              <td>Celda 4</td> <!--Cada td es una celda normal-->         
+              <td>Celda 5</td>        
+              <td>Celda 6</td>        
+            </tr>
+
+            <tr>         
+                <td colspan="2">Colspan</td> <!--Cada td es una celda normal--><!--Colspan es para que una celda ocupe el lugar de x celdas a lo ancho, rowspan es par que una celda ocupe el lugar de x celdas a lo alto-->            
+                <td>Celda 8</td>        
+                <td>Celda 9</td>            
+            </tr>
+        </table>
+
+        <br>
+        <br>
+
+        <!--Formulario-->
+        <h1>FORMULARIO</h1>
+        <form name="datos" action="" method="">
+            <input name="nombre" type="text" placeholder="Nombre" maxlength="10" size="20"/><br><!--maxlength determina el numero maximo de caracteres que se pueden introducir en el input-->
+            <br>
+            <input name="apellido" type="text" placeholder="Apellido"/><br>
+            <br>
+            <input name="telefono" type="number" placeholder="Telefono"/><br>
+            <br>
+            <input name="contraseña" type="password" placeholder="Contraseña"/><br>
+            <br>
+            Fecha de nacimiento: <br><input name="fechaNacimiento" type="date"/><br>
+            <br>
+            Color: <br><input name="color" type="color" placeholder="color"/><br>
+            <br>
+            Sexo:<br>
+            <input name="sexo" type="radio" value="hombre" checked/>Hombre <!--checked preselecciona un valor por defecto-->
+            <input name="sexo" type="radio" value="mujer"/>Mujer
+            <input name="sexo" type="radio" value="otro"/>Otro
+            <br>
+            <br>
+            ¿Que te gusta?<br>
+            <input name="sexo" type="checkbox" value="hombre" checked/>Hombres
+            <input name="sexo" type="checkbox" value="mujer"/>Mujers
+            <input name="sexo" type="checkbox" value="otro"/>Otros(ilegal)
+            <br>
+            <br>
+            Comentario: <br><textarea name="comentario" cols="30" rows="10"></textarea> <!--rows y cols determinan el tamaño de la cajita: rows vertical y cols horizontal-->
+            <br>
+            <br>
+            Población:
+            <select name="seleccionar">
+                <option value="Alicante">Alicante</option>
+                <optgroup label="Lo mejor"></optgroup>
+                    <option value="Casetellon">Castellon</option>
+                    <option value="Valencia">Valencia</option>
+                </optgroup> 
+                <option value="Teruel">Teruel</option>
+            </select>
+            <br>
+            <br>
+            <input name="boton" type="button" value="Pulsar"/><br> <!--Esto es un boton al que se le dara una funcion con JS-->
+            <br>
+            <input name="nuevo" type="reset" value="Borrar todo"/><br> <!--Esto es un boton que resetea el formulario-->
+            <br>
+            <input name="enviar" type="submit" value="Subir"/><br> <!--Esto es un boton que sube los datos-->
+        </form>
+
+    </body>
+</html>

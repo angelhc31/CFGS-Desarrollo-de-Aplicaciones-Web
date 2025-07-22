@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!--VALIDADO-->
+        <meta charset="UTF-8">
+        <title>Nuestro contacto</title>
+        <meta name="description" content="como contactarnos">
+
+        <meta name="distribution" content="global">
+        <style>
+            input{
+                width: 50%;
+                border-radius: 5px;
+                height: 20px;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+            }
+            th{
+                width: 25%;
+                margin: 2px auto;
+            }
+            body{
+                margin-left: 70px;
+                margin-right: 70px;
+                margin-top: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="index.html"><img src="imagenes/logo.jpg" alt="MundoSurf"></a>
+        <br>
+        <br>
+        <table style="width:100%; height: 50px; margin: 20px auto">
+            <tr style="background-color: rgb(0, 88, 221)">
+                <th><a href="productos.html">Productos</a></th>
+                <th><a href="carrito.html">Carrito de la compra</a></th>
+                <th><a href="nosotros.html">Nosotros</a></th>
+                <th style="background-color: rgb(103, 220, 255);"><a href="contacto.html">Contacto</a></th>
+            </tr>
+        </table>
+
+        <form name="Datos" action="http://audiogil.es/DAM/form/FormToEmail.php" style="margin-left: 33%;">
+            <strong>Sexo:</strong><br>
+            <input name="sexo" type="radio" value="Hombre" style="width: auto; height: auto;"/>Hombre
+            <input name="sexo" type="radio" value="Mujer" style="width: auto; height: auto;"/>Mujer <br>
+            <br>
+            <input name="nombre" type="text" placeholder="Nombre"><br>
+            <br>
+            <input name="apellido" type="text" placeholder="Apellido"><br>
+            <br>
+            <input name="email del cliente" type="email" placeholder="Email"><br>
+            <br>
+            <input name="telefono" type="tel" placeholder="Teléfono" maxlength="9"><br>
+            <br>
+            <strong>Población:</strong><br>
+            <select name="Comunidad Autónoma" style="width: 51%; height: 20px; border-radius: 5px;">
+                <option value="Comunidad Valenciana">Comunidad Valenciana</option>
+                <option value="Cataluña">Cataluña</option>
+                <option value="Murcia">Murcia</option>
+                <option value="Andalucía">Andalucía</option>
+                <option value="Extremadura">Extremadura</option>
+                <option value="Castilla y León">Castilla y León</option>
+                <option value="Galicia">Galicia</option>
+                <option value="Asturias">Asturias</option>
+                <option value="Cantabria">Cantabria</option>
+                <option value="País Vasco">País Vasco</option>
+                <option value="La Rioja">La Rioja</option>
+                <option value="Navarra">Navarra</option>
+                <option value="Aragón">Aragón</option>
+                <option value="Castilla la Mancha">Castilla la Mancha</option>
+                <option value="Madrid">Madrid</option>
+                <option value="Islas Baleares">Islas Baleares</option>
+                <option value="Islas Canarias">Islas Canarias</option>
+                <option value="Ceuta">Ceuta</option>
+                <option value="Melilla">Melilla</option>
+            </select>
+            <br>
+            <br>
+            <strong>Fecha de nacimiento:</strong><br><input name="Fecha de Nacimiento" type="date"><br>
+            <br>
+            <strong>Comentario: </strong><br><textarea name="comentario" cols="30" rows="10" style="border-radius: 5px; width: 50%;"></textarea>
+            <input type="hidden" name="email" value="angelhessecaracena@gmail.com"><br>
+            <br>
+            <a href="index.html"><input type="submit" value="Enviar" style="width: 25%; border: none; border-radius: 15px; color: white; background-color: rgb(255, 174, 0);"/></a>
+            <input type="reset" value="Borrar" style="width: 25%; border: none; border-radius: 15px; color: white; background-color: rgb(255, 174, 0);">
+        </form>
+
+        <br><br>
+        <hr style="height: 12px; background-color: black;">
+        <table style="width:100%; height: 50px; margin: 20px auto;">
+            <tr>
+                <th><a href="https://twitter.com/MundoSurfES" target="_blank"><img style="width: 75px" src="imagenes/twitter.jpg" alt="Twitter"></a></th>
+                <th><a href="https://www.facebook.com/mundosurfspain" target="_blank"><img style="width: 43px" src="imagenes/facebook.png" alt="Facebook"></a></th>
+                <th><a href="https://www.instagram.com/mundo_surf/" target="_blank"><img style="width: 120px" src="imagenes/instagram.jpg" alt="Instagram"></a></th>
+                <th><a href="https://www.youtube.com/user/mundosurftv" target="_blank"><img style="width: 120px" src="imagenes/youtube.jpg" alt="Youtube"></a></th>
+            </tr>
+        </table>
+    </body>
+</html>

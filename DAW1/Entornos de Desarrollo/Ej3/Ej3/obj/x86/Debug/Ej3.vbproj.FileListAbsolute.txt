@@ -1,0 +1,9 @@
+C:\Users\raulc\OneDrive\Escritorio\DAW\Entornos de Desarrollo\Ej3\Ej3\bin\Debug\Ej3.exe
+C:\Users\raulc\OneDrive\Escritorio\DAW\Entornos de Desarrollo\Ej3\Ej3\bin\Debug\Ej3.pdb
+C:\Users\raulc\OneDrive\Escritorio\DAW\Entornos de Desarrollo\Ej3\Ej3\bin\Debug\Ej3.xml
+C:\Users\raulc\OneDrive\Escritorio\DAW\Entornos de Desarrollo\Ej3\Ej3\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\raulc\OneDrive\Escritorio\DAW\Entornos de Desarrollo\Ej3\Ej3\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\raulc\OneDrive\Escritorio\DAW\Entornos de Desarrollo\Ej3\Ej3\obj\x86\Debug\Ej3.vbproj.GenerateResource.Cache
+C:\Users\raulc\OneDrive\Escritorio\DAW\Entornos de Desarrollo\Ej3\Ej3\obj\x86\Debug\Ej3.exe
+C:\Users\raulc\OneDrive\Escritorio\DAW\Entornos de Desarrollo\Ej3\Ej3\obj\x86\Debug\Ej3.xml
+C:\Users\raulc\OneDrive\Escritorio\DAW\Entornos de Desarrollo\Ej3\Ej3\obj\x86\Debug\Ej3.pdb

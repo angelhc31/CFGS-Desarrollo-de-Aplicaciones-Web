@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca>
+    <libro isbn="1345645715">
+        <titulo>Harry Potter</titulo>
+        <autores>J.K.Rowling</autores>
+        <editorial>Bloomsbury Publishing</editorial>
+        <fechaPublicacion>30 de noviembre de 2001</fechaPublicacion>
+    </libro>
+
+    <libro isbn="45842376129">
+        <titulo>Harry Potter 2</titulo>
+        <autores>J.K.Rowling</autores>
+        <editorial>Bloomsbury Publishing</editorial>
+        <fechaPublicacion>30 de noviembre de 2001</fechaPublicacion>
+    </libro>
+
+    <libro isbn="6725971309735">
+        <titulo>Harry Potter 3</titulo>
+        <autores>J.K.Rowling</autores>
+        <editorial>Bloomsbury Publishing</editorial>
+        <fechaPublicacion>30 de noviembre de 2001</fechaPublicacion>
+    </libro>   
+
+    <libro isbn="1345645715">
+        <titulo>Harry Potter</titulo>
+        <autores>J.K.Rowling</autores>
+        <editorial>Bloomsbury Publishing</editorial>
+        <fechaPublicacion>30 de noviembre de 2001</fechaPublicacion>
+    </libro>
+
+    <libro isbn="45842376129">
+        <titulo>Harry Potter 2</titulo>
+        <autores>J.K.Rowling</autores>
+        <editorial>Bloomsbury Publishing</editorial>
+        <fechaPublicacion>30 de noviembre de 2001</fechaPublicacion>
+    </libro>
+
+    <libro isbn="6725971309735">
+        <titulo>Harry Potter 3</titulo>
+        <autores>J.K.Rowling</autores>
+        <editorial>Bloomsbury Publishing</editorial>
+        <fechaPublicacion>30 de noviembre de 2001</fechaPublicacion>
+    </libro>   
+</biblioteca>
+
+
+    <libro isbn="1345645715">
+        <titulo>Harry Potter</titulo>
+        <autores>J.K.Rowling</autores>
+        <editorial>Bloomsbury Publishing</editorial>
+        <fechaPublicacion>30 de noviembre de 2001</fechaPublicacion>
+    </libro>
+
+    <libro isbn="45842376129">
+        <titulo>Harry Potter 2</titulo>
+        <autores>J.K.Rowling</autores>
+        <editorial>Bloomsbury Publishing</editorial>
+        <fechaPublicacion>30 de noviembre de 2001</fechaPublicacion>
+    </libro>
+
+    <libro isbn="6725971309735">
+        <titulo>Harry Potter 3</titulo>
+        <autores>J.K.Rowling</autores>
+        <editorial>Bloomsbury Publishing</editorial>
+        <fechaPublicacion>30 de noviembre de 2001</fechaPublicacion>
+    </libro>   

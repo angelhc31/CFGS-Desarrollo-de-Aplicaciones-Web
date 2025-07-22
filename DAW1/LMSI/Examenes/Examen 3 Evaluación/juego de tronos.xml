@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ejercicio2A.xsl"?>
+<!DOCTYPE casas [
+  <!ENTITY cruz "✝">
+]>
+
+<casas>
+   <casa>
+      <nombrec>Casa Stark</nombrec>
+      <blason>blasones/casa-stark.jpg</blason>
+      <lema>Se acerca el invierno</lema>
+      <asentamiento>Invernalia</asentamiento>
+      <region>El Norte</region>
+      <fundacion>Edad de los Héroes</fundacion>
+      <descripcion>La Casa Stark es la casa principal del Norte y su asentamiento es Invernalia, principal bastión del Norte. Los Stark remontan sus orígenes hasta la Edad de los Héroes, gobernando como Reyes en el Norte. Los Stark y los norteños resistieron la llegada de los Ándalos, siendo el único reino que conservó a los Antiguos Dioses, pero no pudieron con la llegada de Aegon el Conquistador, el cual les permitió conservar el señorío de Invernalia. El blasón de la Casa Stark es un lobo huargo de cenizo sobre un campo plateado, mientras que su lema es Se acerca el invierno.</descripcion>
+      <miembros>
+         <padre estado="✝">Eddard Stark</padre>
+         <madre estado="✝">Catelyn Tully</madre>
+         <descendientes>
+            <hijo estado="✝">
+               <nombre>Robb Stark</nombre>
+               <sexo>hombre</sexo>
+               <legitimidad tipo="legitimo" />
+            </hijo>
+            <hijo estado="">
+               <nombre>John Nieve</nombre>
+               <sexo>hombre</sexo>
+               <legitimidad tipo="bastardo" />
+            </hijo>
+            <hijo estado="">
+               <nombre>Sansa Stark</nombre>
+               <sexo>mujer</sexo>
+               <legitimidad tipo="legitimo" />
+            </hijo>
+            <hijo estado="">
+               <nombre>Arya Stark</nombre>
+               <sexo>mujer</sexo>
+               <legitimidad tipo="legitimo" />
+            </hijo>
+            <hijo estado="">
+               <nombre>Bran Stark</nombre>
+               <sexo>hombre</sexo>
+               <legitimidad tipo="legitimo" />
+            </hijo>
+            <hijo estado="">
+               <nombre>Rickon Stark</nombre>
+               <sexo>hombre</sexo>
+               <legitimidad tipo="legitimo" />
+            </hijo>
+         </descendientes>
+         <vasallos>
+            <vasallo estado="✝">
+               <nombre>Maestre Luwin</nombre>
+               <titulo>maestre</titulo>
+            </vasallo>
+            <vasallo estado="✝">
+               <nombre>Rodrick Cassel</nombre>
+               <titulo>caballero</titulo>
+            </vasallo>
+            <vasallo estado="">
+               <nombre>Hodor</nombre>
+               <titulo>sirviente</titulo>
+            </vasallo>
+         </vasallos>
+      </miembros>
+      <estilo>
+         <colorNombreC>#f9f9f9</colorNombreC>
+         <colorLema>#c3c3c1</colorLema>
+         <fondo>#3b3b3b</fondo>
+         <fotoFondo>URL('images/fondoStark.jpg')</fotoFondo>
+      </estilo>
+   </casa>
+   <casa>
+      <nombrec>Casa Lannister</nombrec>
+      <blason>blasones/casa-lannister.jpg</blason>
+      <lema>Un Lannister siempre paga sus deudas</lema>
+      <asentamiento>Roca Casterly</asentamiento>
+      <region>Tierras del Oeste</region>
+      <fundacion>Edad de los Héroes</fundacion>
+      <descripcion>La Casa Lannister es la casa principal de las Tierras del Occidente y su asentamiento es Roca Casterly. Los Lannister descienden de un héroe legendario llamado Lann el Astuto que logró embaucar a la Casa Casterly y quedarse con su bastión. En la época pre-Targaryen gobernaron el Occidente como los llamados Reyes de la Roca. El blasón de la Casa Lannister es un león rampante de oro sobre un campo de gules, mientras que su lema es ¡Oye mi rugido!, aunque tienen un lema extraoficial que es Un Lannister siempre paga sus deudas.</descripcion>
+      <miembros>
+         <padre estado="">Tywin Lannister</padre>
+         <madre estado="✝">Joanna Lannister</madre>
+         <descendientes>
+            <hijo estado="">
+               <nombre>Jaime Lannister</nombre>
+               <sexo>hombre</sexo>
+               <legitimidad tipo="legitimo" />
+            </hijo>
+            <hijo estado="">
+               <nombre>Cersei Lannister</nombre>
+               <sexo>mujer</sexo>
+               <legitimidad tipo="legitimo" />
+            </hijo>
+            <hijo estado="">
+               <nombre>Tyrion Lannister</nombre>
+               <sexo>hombre</sexo>
+               <legitimidad tipo="legitimo" />
+            </hijo>
+         </descendientes>
+         <vasallos>
+            <vasallo estado="">
+               <nombre>Sir Gregor Clegane - La Montaña</nombre>
+               <titulo>caballero</titulo>
+            </vasallo>
+            <vasallo estado="">
+               <nombre>Bronn</nombre>
+               <titulo>guardaespaldas</titulo>
+            </vasallo>
+            <vasallo estado="">
+               <nombre>Lord Petyr Baelish</nombre>
+               <titulo>caballero</titulo>
+            </vasallo>
+         </vasallos>
+      </miembros>
+      <estilo>
+         <colorNombreC>#fbf4ee</colorNombreC>
+         <colorLema>#ccaa84</colorLema>
+         <fondo>#7c150c</fondo>
+         <fotoFondo>URL('images/fondoLannister.jpg')</fotoFondo>
+      </estilo>
+   </casa>
+   <casa>
+      <nombrec>Casa Baratheon</nombrec>
+      <blason>blasones/casa-baratheon.jpg</blason>
+      <lema>Nuestra es la Furia</lema>
+      <asentamiento>Bastión de Tormentas</asentamiento>
+      <region>Tierras de la tormenta</region>
+      <fundacion>1 d.C.</fundacion>
+      <descripcion>La Casa Baratheon es la casa principal de las Tierras de Tormentas, su asentamiento es Bastión de Tormentas. Cuando Robert Baratheon se levantó contra el Trono de Hierro, Robert derrotó y exilió a la Casa Targaryen, convirtiéndose en Rey de los Siete Reinos. Actualmente la Casa Baratheon se halla dividida debido a la guerra, estando el niño-rey Tommen Baratheon en Desembarco del Rey, y Stannis Baratheon en el Norte. El blasón de la Casa Baratheon es un venado de sable sobre campo de oro, mientras que su lema es Nuestra es la furia.</descripcion>
+      <miembros>
+         <padre estado="✝">Robert Baratheon</padre>
+         <madre estado="">Cersei Lannister</madre>
+         <descendientes>
+            <hijo estado="">
+               <nombre>Joffrey Baratheon</nombre>
+               <sexo>hombre</sexo>
+               <legitimidad tipo="legitimo" />
+            </hijo>
+            <hijo estado="">
+               <nombre>Myrcella Baratheon</nombre>
+               <sexo>mujer</sexo>
+               <legitimidad tipo="legitimo" />
+            </hijo>
+            <hijo estado="">
+               <nombre>Tommen Baratheon</nombre>
+               <sexo>hombre</sexo>
+               <legitimidad tipo="legitimo" />
+            </hijo>
+         </descendientes>
+         <vasallos>
+            <vasallo estado="">
+               <nombre>Brienne de Tarth</nombre>
+               <titulo>caballero</titulo>
+            </vasallo>
+            <vasallo estado="">
+               <nombre>Sir Gregor Clegane - La Montaña</nombre>
+               <titulo>caballero</titulo>
+            </vasallo>
+            <vasallo estado="">
+               <nombre>Lord Petyr Baelish</nombre>
+               <titulo>caballero</titulo>
+            </vasallo>
+         </vasallos>
+      </miembros>
+      <estilo>
+         <colorNombreC>#fffee5</colorNombreC>
+         <colorLema>#000000</colorLema>
+         <fondo>#daa614</fondo>
+         <fotoFondo>URL('images/fondoBaratheon.jpg')</fotoFondo>
+      </estilo>
+   </casa>
+   <casa>
+      <nombrec>Casa Targaryen</nombrec>
+      <blason>blasones/casa-targaryen.jpg</blason>
+      <lema>Sangre y fuego</lema>
+      <asentamiento>Rocadragón</asentamiento>
+      <region>Valyria</region>
+      <fundacion>126 a.C.</fundacion>
+      <descripcion>La Casa Targaryen fue la casa que reinó en los Siete Reinos desde la conquista de Aegon I Targaryen hasta el derrocamiento de Aerys II Targaryen por Robert Baratheon, a partir del cual fueron exiliados de Poniente. La Casa Targaryen remonta sus orígenes hasta la antigua Valyria, asentándose en la isla de Rocadragón pocos años antes de la Maldición de Valyria. Los Targaryen subyugaron a seis de los Siete Reinos en la llamada Guerra de la Conquista, a partir de la cual reinaron como soberanos durante casi 300 años. El blasón de la Casa Targaryen es un dragón tricéfalo de gules sobre campo de sable, mientras que su lema es Sangre y fuego.</descripcion>
+      <miembros>
+         <padre estado="✝">Aerys II Targaryen</padre>
+         <madre estado="✝">Rhaella Targaryen</madre>
+         <descendientes>
+            <hijo estado="✝">
+               <nombre>Rhaegar Targaryen</nombre>
+               <sexo>hombre</sexo>
+               <legitimidad tipo="legitimo" />
+            </hijo>
+            <hijo estado="✝">
+               <nombre>Elia Targaryen</nombre>
+               <sexo>mujer</sexo>
+               <legitimidad tipo="legitimo" />
+            </hijo>
+            <hijo estado="✝">
+               <nombre>Viserys Targaryen</nombre>
+               <sexo>hombre</sexo>
+               <legitimidad tipo="legitimo" />
+            </hijo>
+            <hijo estado="">
+               <nombre>Daenerys Targaryen</nombre>
+               <sexo>mujer</sexo>
+               <legitimidad tipo="legitimo" />
+            </hijo>
+         </descendientes>
+         <vasallos>
+            <vasallo estado="">
+               <nombre>Ser Jorah Mormont</nombre>
+               <titulo>caballero</titulo>
+            </vasallo>
+            <vasallo estado="">
+               <nombre>Lord Varys</nombre>
+               <titulo>consejero</titulo>
+            </vasallo>
+            <vasallo estado="">
+               <nombre>Daario Naharis</nombre>
+               <titulo>caballero</titulo>
+            </vasallo>
+         </vasallos>
+      </miembros>
+      <estilo>
+         <colorNombreC>#e6e6e6</colorNombreC>
+         <colorLema>#bd3323</colorLema>
+         <fondo>#232323</fondo>
+         <fotoFondo>URL('images/fondoTargaryen.jpg')</fotoFondo>
+      </estilo>
+   </casa>
+   <casa>
+      <nombrec>Casa Bolton</nombrec>
+      <blason>blasones/casa-bolton.jpg</blason>
+      <lema>Nuestras espadas están afiladas</lema>
+      <asentamiento>Fuerte Terror</asentamiento>
+      <region>El Norte</region>
+      <fundacion>Edad de los Héroes</fundacion>
+      <descripcion>La Casa Bolton de Fuerte Terror es una antigua casa noble descendiente de los Primeros Hombres y actual gobernante del Norte. Su asentamiento es Fuerte Terror. Su emblema es un hombre desollado de gules en campo carnación de sangre. Su lema es Nuestras espadas están afiladas. La Casa Bolton es una casa antigua y poderosa del Norte que por muchos siglos fueron el rival más importante de los Reyes en el Norte, los Stark de Invernalia. Como reyes rojos, los Bolton tuvieron algunas victorias sobre los Stark, llegando a desollar a algunos de ellos, colgando luego sus cuerpos de las paredes de su fortaleza.</descripcion>
+      <miembros>
+         <padre estado="">Lord Roose Bolton</padre>
+         <madre estado="✝">Bethany Ryswell</madre>
+         <descendientes>
+            <hijo estado="✝">
+               <nombre>Domeric Bolton</nombre>
+               <sexo>hombre</sexo>
+               <legitimidad tipo="legitimo" />
+            </hijo>
+            <hijo estado="">
+               <nombre>Ramsay Bolton</nombre>
+               <sexo>hombre</sexo>
+               <legitimidad tipo="bastardo" />
+            </hijo>
+         </descendientes>
+         <vasallos>
+            <vasallo estado="">
+               <nombre>Hediondo</nombre>
+               <titulo>mayordomo</titulo>
+            </vasallo>
+            <vasallo estado="">
+               <nombre>Walder el Pequeño</nombre>
+               <titulo>escudero</titulo>
+            </vasallo>
+            <vasallo estado="">
+               <nombre>Walder el Mayor</nombre>
+               <titulo>escudero</titulo>
+            </vasallo>
+            <vasallo estado="">
+               <nombre>Las Chicas del Bastardo</nombre>
+               <titulo>jauría</titulo>
+            </vasallo>
+         </vasallos>
+      </miembros>
+      <estilo>
+         <colorNombreC>#ffedf6</colorNombreC>
+         <colorLema>#e0d0ce</colorLema>
+         <fondo>#b44c6d</fondo>
+         <fotoFondo>URL('images/fondoBolton.jpg')</fotoFondo>
+      </estilo>
+   </casa>
+   <casa>
+      <nombrec>Casa Greyjoy</nombrec>
+      <blason>blasones/casa-greyjoy.jpg</blason>
+      <lema>Nosotros no sembramos</lema>
+      <asentamiento>Pyke</asentamiento>
+      <region>Islas del Hierro</region>
+      <fundacion>Edad de los Héroes</fundacion>
+      <descripcion>La Casa Greyjoy es la casa principal de las Islas del Hierro, un conjunto de islas situadas al oeste de Poniente. Tienen su asentamiento en el castillo de Pyke, situado en la isla del mismo nombre. Los Greyjoy fueron escogidos como Señores de las Islas del Hierro después de la Guerra de la Conquista de Aegon el Conquistador. El blasón de la Casa Greyjoy es un kraken de oro sobre un campo de sable, mientras que su lema es Nosotros no sembramos.</descripcion>
+      <miembros>
+         <padre estado="">Balon Greyjoy</padre>
+         <madre estado="✝">Lady Alannys</madre>
+         <descendientes>
+            <hijo estado="">
+               <nombre>Theon Greyjoy</nombre>
+               <sexo>hombre</sexo>
+               <legitimidad tipo="legitimo" />
+            </hijo>
+            <hijo estado="">
+               <nombre>Asha Greyjoy</nombre>
+               <sexo>mujer</sexo>
+               <legitimidad tipo="legitimo" />
+            </hijo>
+            <hijo estado="✝">
+               <nombre>Rodrik Greyjoy</nombre>
+               <sexo>hombre</sexo>
+               <legitimidad tipo="legitimo" />
+            </hijo>
+            <hijo estado="✝">
+               <nombre>Maron Greyjoy</nombre>
+               <sexo>hombre</sexo>
+               <legitimidad tipo="legitimo" />
+            </hijo>
+         </descendientes>
+         <vasallos>
+            <vasallo estado="">
+               <nombre>Dagmer - Barbarrota</nombre>
+               <titulo>maestro de armas</titulo>
+            </vasallo>
+            <vasallo estado="">
+               <nombre>Maestre Wendamyr</nombre>
+               <titulo>consejero</titulo>
+            </vasallo>
+            <vasallo estado="">
+               <nombre>Helya</nombre>
+               <titulo>mayordomo</titulo>
+            </vasallo>
+         </vasallos>
+      </miembros>
+      <estilo>
+         <colorNombreC>#d4d4d4</colorNombreC>
+         <colorLema>#caa882</colorLema>
+         <fondo>#1e1e1e</fondo>
+         <fotoFondo>URL('images/fondoGreyjoy.jpg')</fotoFondo>
+      </estilo>
+   </casa>
+</casas>

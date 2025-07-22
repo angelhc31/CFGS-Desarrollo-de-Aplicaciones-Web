@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE examen3 SYSTEM "examen3.dtd">
+
+<Exposiciones>
+    <expo id="1">
+        <nombre>El Inutil</nombre>
+        <lugar>Benicasim</lugar>
+        <tipo>Patetico</tipo>
+        <descripcion>Todos los fracasos de este gran artista reunidos<descripcion>
+        <website>....</website>
+        <fechaInicio>26/5/2021</fechaInicio>
+        <fechaFin>27/5/2021</fechaFin>
+
+        <Obras>
+            <obra id="1">
+                <titulo>Examen de LMSI</titulo>
+                <año>2021</año>
+                <estilo>Patetico</estilo>
+                <tecnica>Inventada absoulta</tecnica>
+
+                <Artistas>
+                    <artista id="1">
+                        <nombre>Angel</nombre>
+                        <apellidos>Hesse Caracena</apellidos>
+                        <nacionalidad>Español</nacionalidad>
+                        <fechaNacimiento>31/12/2002</fechaNacimiento>
+                        <website>....</website>
+                    </artista>
+                </Artistas>
+
+                <Estilos>
+                    <estilo id="1">
+                        <nombre>Patetico</nombre>
+                        <descripcion>Hacerlo todo lo peor que se puede</descripcion>
+                        <tecnica>Inventarse todo lo que esta haciendo</tecnica>
+                        <material>Imaginación</material>
+                    </estilo>
+                </Estilos>
+            </obra>
+        </Obras>
+    </expo>
+</Exposiciones>

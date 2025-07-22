@@ -1,0 +1,42 @@
+* {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+h2 {
+  color: darkblue;
+  font-size: 2rem;
+}
+
+h2 p {
+  font-size: 1rem;
+  color: darkred;
+}
+
+p {
+  color: greenyellow;
+}
+
+h1,
+h3 {
+  color: indigo;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+a:hover {
+  color: red;
+  background-color: yellow;
+}
+a:visited {
+  color: black;
+  background-color: white;
+}
+
+h4::first-line {
+  color: cadetblue;
+}
