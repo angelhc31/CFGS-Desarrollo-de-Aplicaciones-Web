@@ -1,29 +1,29 @@
-# 📚 Apuntes, Recursos y Proyectos del CFGS en Desarrollo de Aplicaciones Web (DAW)
+# 📚 Notes, Resources, and Projects for the Higher Vocational Training in Web Application Development (DAW)
 
-Este repositorio contiene todos mis apuntes, materiales de estudio, recursos útiles y proyectos desarrollados a lo largo del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (DAW).
+This repository contains all my notes, study materials, useful resources, and projects developed throughout the Higher Vocational Training Cycle in Web Application Development (DAW).
 
-Mi objetivo con este repositorio es tener una recopilación bien organizada de todo lo aprendido.
+My goal with this repository is to have a well-organized collection of everything I have learned.
 
-Aparte de todo este material, tengo gran cantidad de material en papel, no todo lo hecho o aprendido está reflejado en este repositorio.
+Besides all this material, I also have a large amount of paper-based material; not everything done or learned is reflected in this repository.
 
 ---
 
-## 🗂 Estructura del repositorio
+## 🗂 Repository Structure
 
 ```bash
-📁 1º - DAW1 - Primer Curso
-│   ├── Bases de datos
-│   ├── Entornos de desarrollo
-│   ├── LMSI
-│   ├── Programación
-│   └── Sistemas informáticos
+📁 1st Year - DAW1 - First Year
+│   ├── Databases
+│   ├── Development Environments
+│   ├── LMSI (Information Systems Management)
+│   ├── Programming
+│   └── Computer Systems
 
-📁 2º - DAW2 - Segundo Curso
-│   ├── Diseño de interfaces web
-│   ├── Desarrollo web en entorno cliente
-│   ├── Desarrollo web en entorno servidor
-│   ├── Despliegue de aplicaciones web
+📁 2nd Year - DAW2 - Second Year
+│   ├── Web Interface Design
+│   ├── Client-Side Web Development
+│   ├── Server-Side Web Development
+│   ├── Web Application Deployment
 
-📁 Proyecto Final
-│   ├── Proyecto
-│   ├── Otros archivos de documentación
+📁 Final Project
+│   ├── Project
+│   ├── Other Documentation Files
